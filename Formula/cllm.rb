@@ -9,6 +9,7 @@ class Cllm < Formula
   license "MIT"
 
   depends_on "python@3.10"
+  depends_on "poetry" => :build
 
   def python3
     "python3.10"

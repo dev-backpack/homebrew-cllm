@@ -17,6 +17,8 @@ class Cllm < Formula
 
   def install
     virtualenv_install_with_resources
+    site_packages = Language::Python.site_packages(python3)
+    ENV.prepend_path "PYTHONPATH", Formula["poetry"].opt_libexec/site_packages
     system python3, "-m", "pip", "install", *std_pip_args, "."
   end
 

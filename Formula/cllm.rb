@@ -10,6 +10,7 @@ class Cllm < Formula
 
   depends_on "python@3.10"
   depends_on "poetry" => :build
+  depends_on "python-platformdirs" => :build
 
   def install
     virtualenv_install_with_resources

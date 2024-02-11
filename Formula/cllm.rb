@@ -13,4 +13,8 @@ class Cllm < Formula
   def install
     virtualenv_install_with_resources
   end
+
+  test do
+    system "#{bin}/cllm", "--help"
+  end
 end

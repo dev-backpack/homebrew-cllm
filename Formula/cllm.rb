@@ -17,7 +17,7 @@ class Cllm < Formula
     site_packages = Language::Python.site_packages(python3)
     ENV.prepend_path "PYTHONPATH", Formula["poetry"].opt_libexec/site_packages
 
-    system python3, "-m", "pip", "install", *std_pip_args, "."
+    system python3, "-m", "pip", "install", "."
   end
 
   test do

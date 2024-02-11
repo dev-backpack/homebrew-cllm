@@ -9,11 +9,10 @@ class Cllm < Formula
   license "MIT"
 
   depends_on "python@3.10"
-  depends_on "poetry" => :build
 
   def install
     virtualenv_install_with_resources
-    system "poetry", "install", "--only=main"
+    system python3, "-m", "pip", "install", *std_pip_args, "."
   end
 
   test do

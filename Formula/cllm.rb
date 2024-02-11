@@ -10,6 +10,10 @@ class Cllm < Formula
 
   depends_on "python@3.10"
 
+  def python3
+    "python3.10"
+  end
+
   def install
     virtualenv_install_with_resources
     system python3, "-m", "pip", "install", *std_pip_args, "."

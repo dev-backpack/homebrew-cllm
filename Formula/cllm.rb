@@ -2,7 +2,7 @@ class Cllm < Formula
   desc "Empower your CLI experience with a command search tool driven by LLM magic!" 
   homepage "https://github.com/dev-backpack/cllm" 
   url "https://github.com/dev-backpack/cllm/releases/download/v0.1.1/cllm-0.1.1.tar.gz" 
-  sha256 "718c29878193127ddcf5f1d73f6f47ee261dba219d1de437aa61f6a374c449cc"
+  sha256 "1ad4fffd0bf4e2e07c1419a51f63a7791cb202823f8fbc553f61e87320031a7b"
   version "0.1.1"
   license "MIT"
 

@@ -7,7 +7,7 @@ class Cllm < Formula
   version "0.1.1"
   license "MIT"
 
-  depends_on "python@3.12"
+  depends_on "python3"
 
   resource "typer" do
     url "https://files.pythonhosted.org/packages/5b/49/39f10d0f75886439ab3dac889f14f8ad511982a754e382c9b6ca895b29e9/typer-0.9.0.tar.gz"

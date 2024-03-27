@@ -1,8 +1,8 @@
 class Cllm < Formula
   desc "Empower your CLI experience with a command search tool driven by LLM magic!"
   homepage "https://github.com/dev-backpack/cllm"
-  url "https://github.com/dev-backpack/cllm/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "2f0713c46b9e977e80f0263c7030a60899c4c4020049e2c02b2157844d299103"
+  url "https://github.com/dev-backpack/cllm/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "4f9a45b231542e31d85d46ea938910d240969555acb8cd1700a1f10751e43aab"
   license "MIT"
 
   depends_on "rust" => :build
